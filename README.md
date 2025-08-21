@@ -1,16 +1,18 @@
 # Chat-Bot 💬
 
-A **rule-based chatbot** written in Python.  
-It simulates simple conversations by matching user input to predefined patterns and responses.  
-Perfect for beginners to understand **conditional logic, loops, and string handling** in Python.
+A **simple rule-based chatbot** built in Python.  
+It can respond to basic greetings and phrases, and gracefully exits when the user types `exit` or `bye`.
 
 ---
 
 ## ✨ Features
-- Greets and responds to user queries  
-- Provides multiple reply options for common inputs  
-- Handles unrecognized input with a default response  
-- Simple, lightweight, and easy to extend  
+- Welcomes the user at startup  
+- Recognizes and responds to:
+  - `hello` → "Hi!"
+  - `how are you` → "I'm fine, thanks!"
+  - `bye` or `exit` → Ends the chat politely  
+- Handles unknown inputs with a default message  
+- Lightweight, easy-to-run Python script  
 
 ---
 
